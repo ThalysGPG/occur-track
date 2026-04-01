@@ -57,6 +57,21 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        status: {
+          nova: "hsl(var(--status-nova))",
+          triagem: "hsl(var(--status-triagem))",
+          andamento: "hsl(var(--status-andamento))",
+          bloqueada: "hsl(var(--status-bloqueada))",
+          validacao: "hsl(var(--status-validacao))",
+          concluida: "hsl(var(--status-concluida))",
+          cancelada: "hsl(var(--status-cancelada))",
+        },
+        severity: {
+          baixa: "hsl(var(--severity-baixa))",
+          media: "hsl(var(--severity-media))",
+          alta: "hsl(var(--severity-alta))",
+          critica: "hsl(var(--severity-critica))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
